@@ -1,0 +1,3 @@
+"""
+    Pszczeli (bee algorithm).
+"""

@@ -1,0 +1,3 @@
+"""
+    Bąbelkowe (bubblesort).
+"""

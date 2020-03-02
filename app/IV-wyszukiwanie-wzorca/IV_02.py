@@ -1,0 +1,3 @@
+"""
+    Boyer-Moore
+"""

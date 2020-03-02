@@ -1,0 +1,3 @@
+"""
+    Lista z wartownikiem.
+"""

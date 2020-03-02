@@ -1,0 +1,3 @@
+"""
+    Różnicowy (differential evolution).
+"""

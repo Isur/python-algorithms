@@ -1,0 +1,3 @@
+"""
+    Stogowe (heapsort).
+"""

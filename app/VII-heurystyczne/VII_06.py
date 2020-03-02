@@ -1,0 +1,3 @@
+"""
+    Świetlika (firefly algorithm).
+"""

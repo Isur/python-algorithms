@@ -1,0 +1,3 @@
+"""
+    Wyżarzania (annealing).
+"""

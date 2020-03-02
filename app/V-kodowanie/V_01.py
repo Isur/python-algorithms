@@ -1,0 +1,3 @@
+"""
+    Cezar z dowolnym przesunięciem.
+"""

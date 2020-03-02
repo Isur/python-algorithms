@@ -1,0 +1,3 @@
+"""
+    Szybkie (quicksort).
+"""

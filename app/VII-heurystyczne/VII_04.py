@@ -1,0 +1,3 @@
+"""
+    Kukułki (cuckoo search).
+"""

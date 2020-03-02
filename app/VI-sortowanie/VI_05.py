@@ -1,0 +1,3 @@
+"""
+    Przez zliczanie (countingsort).
+"""

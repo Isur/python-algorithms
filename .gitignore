@@ -1,0 +1,7 @@
+# Cache
+.pytest_cache
+**/*cache*
+# IDE, Editor settings
+.vscode
+# Virtual Envinronment
+venv

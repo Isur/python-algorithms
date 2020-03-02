@@ -1,0 +1,3 @@
+"""
+    Genetyczny (genetic algorithm).
+"""

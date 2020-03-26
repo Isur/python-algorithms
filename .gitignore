@@ -3,5 +3,6 @@
 **/*cache*
 # IDE, Editor settings
 .vscode
+.idea
 # Virtual Envinronment
 venv

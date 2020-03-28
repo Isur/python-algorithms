@@ -2,6 +2,7 @@
     Lista cykliczna.
 """
 
+
 class Node(object):
     def __init__(self, value, next_node):
         self.value = value
@@ -9,6 +10,7 @@ class Node(object):
 
     def __str__(self):
         return f"{self.value}"
+
 
 class CircularList(object):
     def __init__(self):
@@ -26,7 +28,7 @@ class CircularList(object):
             if current is self.head:
                 break
         return string
-    
+
     def insert_beginning(self, value):
         if not self.head:
             new_node = Node(value, None)
@@ -57,7 +59,7 @@ class CircularList(object):
             if current is self.tail:
                 return None
         return current
-    
+
     def remove(self, value):
         current = self.head
         previous = None

@@ -2,6 +2,7 @@
     Lista dwukierunkowa.
 """
 
+
 class Node(object):
     def __init__(self, value, next_node, prev_node):
         self.value = value
@@ -10,6 +11,7 @@ class Node(object):
 
     def __str__(self):
         return f"{self.value}"
+
 
 class DoublyLinkedList(object):
     def __init__(self):
@@ -24,7 +26,7 @@ class DoublyLinkedList(object):
             string += str(current)
             current = current.next
         return string
-    
+
     def insert_beginning(self, value):
         new_head = Node(value, self.head, None)
         if self.head:
@@ -45,7 +47,7 @@ class DoublyLinkedList(object):
         while current and current.value != value:
             current = current.next
         return current
-    
+
     def remove(self, value):
         node = self.find(value)
         if not node:
@@ -58,6 +60,7 @@ class DoublyLinkedList(object):
             self.head = node.next
         node.prev = None
         node.next = None
+
 
 linked = DoublyLinkedList()
 print(linked)

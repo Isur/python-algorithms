@@ -2,8 +2,9 @@
     Stos.
 """
 
+
 class Stack(object):
-    def __init__(self, max = 10):
+    def __init__(self, max=10):
         self.arr = []
         self.max_len = max
         self.curr_len = 0
@@ -18,7 +19,7 @@ class Stack(object):
 
     def isFull(self):
         return self.curr_len == self.max_len
-    
+
     def push(self, item):
         if self.isFull():
             return
@@ -29,7 +30,7 @@ class Stack(object):
         new_arr[self.curr_len] = item
         self.arr = new_arr
         self.curr_len = new_len
-    
+
     def pop(self):
         if self.isEmpty():
             return
@@ -39,6 +40,7 @@ class Stack(object):
             new_arr[i] = self.arr[i]
         self.arr = new_arr
         self.curr_len = new_len
+
 
 s = Stack(3)
 print(s)

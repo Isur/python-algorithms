@@ -2,6 +2,7 @@
     Lista jednokierunkowa.
 """
 
+
 class Node(object):
     def __init__(self, value, next_node):
         self.value = value
@@ -9,6 +10,7 @@ class Node(object):
 
     def __str__(self):
         return f"{self.value}"
+
 
 class LinkedList(object):
     def __init__(self):
@@ -23,7 +25,7 @@ class LinkedList(object):
             string += str(current)
             current = current.next
         return string
-    
+
     def insert_beginning(self, value):
         self.head = Node(value, self.head)
 
@@ -41,7 +43,7 @@ class LinkedList(object):
         while current and current.value != value:
             current = current.next
         return current
-    
+
     def remove(self, value):
         current = self.head
         previous = None
@@ -53,6 +55,7 @@ class LinkedList(object):
         elif current:
             previous.next = current.next
             current.next = None
+
 
 linked = LinkedList()
 print(linked)

@@ -2,6 +2,7 @@
     Kolejka z priorytetem.
 """
 
+
 class QueueWithPriority(object):
     arr = []
     priority = []
@@ -66,12 +67,13 @@ class QueueWithPriority(object):
                 new_priority[pos] = priority
             else:
                 new_arr[i] = self.arr[i - 1]
-                new_priority[i] = self.priority[i - 1]  
+                new_priority[i] = self.priority[i - 1]
 
         self.priority = new_priority
         self.arr = new_arr
         self.curr_len = new_len
-        
+
+
 q = QueueWithPriority()
 print(q)
 q.enqueue("T", 1)
@@ -83,7 +85,7 @@ q.enqueue("T", 4)
 q.enqueue("T", 3)
 q.enqueue("T", 2)
 q.enqueue("T", 1)
-q.enqueue("D",1)
+q.enqueue("D", 1)
 print(q)
 q.dequeue()
 q.dequeue()

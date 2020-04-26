@@ -27,16 +27,16 @@ def naive_pattern_search(text, pattern):
     find = []
     for i in range(text_lenght - pattern_length + 1):
         for j in range(pattern_length):
-            if pattern[j] != text[i + j]:
+            if pattern[j] == text[i + j]:
+                if j == pattern_length - 1:
+                    find.append(i)
+            else:
                 break
-        if j == pattern_length - 1:
-            find.append(i)
-
     return find
 
 
 result = naive_pattern_search(TEXT, PATTERN)
 print(f"'{PATTERN}' on positions:")
 print(result)
-print("'Ea' on positions:")
-print(naive_pattern_search(TEXT, "Ea"))
+print("'elit' on positions:")
+print(naive_pattern_search(TEXT, "elit"))

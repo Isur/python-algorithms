@@ -1,12 +1,13 @@
 """
-    Wyszukiwania największej liczby w danym zbiorze
-    (każda liczba jest oddzielona średnikiem i mogą to być liczby zmiennoprzecinkowe)
+    Find max
 """
+
 
 def loadFromFile(path):
     with open(path) as file:
         data = file.read()
     return data
+
 
 def parseData(data):
     text = data.split(";")
@@ -15,12 +16,14 @@ def parseData(data):
         array.append(float(num))
     return array
 
+
 def findMax(data):
     maxVal = data[0]
     for item in data:
         if maxVal < item:
             maxVal = item
     return maxVal
+
 
 fileData = loadFromFile("./I_01.txt")
 parsedData = parseData(fileData)

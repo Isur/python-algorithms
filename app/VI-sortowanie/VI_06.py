@@ -1,3 +1,0 @@
-"""
-    Przez scalanie (mergesort).
-"""

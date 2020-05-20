@@ -4,9 +4,6 @@ from VI_03 import Quick_sort
 from VI_04 import Heap_sort
 from VI_05 import Merge_sort
 from tester import Setting
-import matplotlib.pyplot as plt
-import numpy as np
-plt.rcdefaults()
 
 
 class Test_All_Sorts(object):
@@ -18,7 +15,7 @@ class Test_All_Sorts(object):
             Setting(50, 100, 1000),
             Setting(25, 1000, 10000),
             Setting(12, 10000, 100000),
-            Setting(3, 100000, 1000000)
+            Setting(1, 100000, 1000000)
         ]
         self.create_sorters()
 
@@ -49,12 +46,14 @@ class Test_All_Sorts(object):
         self.results_print()
 
     def results_print(self):
-        i = 1
+        print("============")
+        i = 0
         for res in self.results:
-            print(f"{res[1]} with {res[2]} in {res[0]}s")
-            if i % 5 == 0 and i > 3:
-                print()
+            if i % 5 == 0:
+                print(res[2])
             i += 1
+            print(f"{res[1]} in {res[0]}s")
+        print("============")
 
 
 Test_All_Sorts().work()

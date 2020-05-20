@@ -1,29 +1,32 @@
-Insert Sort with 100 sorts with min 10 and max 100 elements in array in 6.638288497924805e-05s
-Bubble Sort with 100 sorts with min 10 and max 100 elements in array in 0.00021121025085449219s
-Quick Sort with 100 sorts with min 10 and max 100 elements in array in 4.409551620483398e-05s
-Heap sort with 100 sorts with min 10 and max 100 elements in array in 7.95435905456543e-05s
-Merge Sort with 100 sorts with min 10 and max 100 elements in array in 8.373498916625976e-05s
-
-Insert Sort with 50 sorts with min 100 and max 1000 elements in array in 0.008103923797607422s
-Bubble Sort with 50 sorts with min 100 and max 1000 elements in array in 0.021009459495544433s
-Quick Sort with 50 sorts with min 100 and max 1000 elements in array in 0.0005881071090698242s
-Heap sort with 50 sorts with min 100 and max 1000 elements in array in 0.001363525390625s
-Merge Sort with 50 sorts with min 100 and max 1000 elements in array in 0.0010421562194824218s
-
-Insert Sort with 25 sorts with min 1000 and max 10000 elements in array in 0.7254219436645508s
-Bubble Sort with 25 sorts with min 1000 and max 10000 elements in array in 2.6409993743896485s
-Quick Sort with 25 sorts with min 1000 and max 10000 elements in array in 0.010363502502441406s
-Heap sort with 25 sorts with min 1000 and max 10000 elements in array in 0.017922134399414064s
-Merge Sort with 25 sorts with min 1000 and max 10000 elements in array in 0.017890615463256834s
-
-Insert Sort with 12 sorts with min 10000 and max 100000 elements in array in too much s
-Bubble Sort with 12 sorts with min 10000 and max 100000 elements in array in too much s
-Quick Sort with 12 sorts with min 10000 and max 100000 elements in array in 0.12346112728118896s
-Heap sort with 12 sorts with min 10000 and max 100000 elements in array in 0.1980253060658773s
-Merge Sort with 12 sorts with min 10000 and max 100000 elements in array in 0.1590107282002767s
-
-Insert Sort with 3 sorts with min 100000 and max 1000000 elements in array in too much s
-Bubble Sort with 3 sorts with min 100000 and max 1000000 elements in array in too much s
-Quick Sort with 3 sorts with min 100000 and max 1000000 elements in array in 2.0036904017130532s
-Heap sort with 3 sorts with min 100000 and max 1000000 elements in array in 4.236141681671143s
-Merge Sort with 3 sorts with min 100000 and max 1000000 elements in array in 3.005547285079956s
+============
+100 sorts with min 10 and max 100 elements in array
+Insert Sort in 0.0001532149314880371s
+Bubble Sort in 0.00033221960067749025s
+Quick Sort in 5.026102066040039e-05s
+Heap sort in 7.963895797729492e-05s
+Merge Sort in 7.00831413269043e-05s
+50 sorts with min 100 and max 1000 elements in array
+Insert Sort in 0.008374137878417969s
+Bubble Sort in 0.030390963554382325s
+Quick Sort in 0.0005669546127319336s
+Heap sort in 0.0013114023208618164s
+Merge Sort in 0.001044301986694336s
+25 sorts with min 1000 and max 10000 elements in array
+Insert Sort in 0.8920014667510986s
+Bubble Sort in 3.4445670890808104s
+Quick Sort in 0.007470626831054688s
+Heap sort in 0.022262716293334962s
+Merge Sort in 0.012867155075073243s
+12 sorts with min 10000 and max 100000 elements in array
+Insert Sort in too much s
+Bubble Sort in too much s
+Quick Sort in 0.11378548542658488s
+Heap sort in 0.316470464070638s
+Merge Sort in 0.19758240381876627s
+1 sorts with min 100000 and max 1000000 elements in array
+Insert Sort in too much s
+Bubble Sort in too much s
+Quick Sort in 1.9995050430297852s
+Heap sort in 4.862513780593872s
+Merge Sort in 4.1206090450286865s
+============

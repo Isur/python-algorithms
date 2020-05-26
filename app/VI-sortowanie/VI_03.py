@@ -40,3 +40,7 @@ def main():
     quick = Quick_sort()
     quick.main()
     quick.print_results()
+
+
+if __name__ == "__main__":
+    main()

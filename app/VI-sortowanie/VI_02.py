@@ -23,3 +23,7 @@ def main():
     bubble = Bubble_sort()
     bubble.main(2)
     bubble.print_results()
+
+
+if __name__ == "__main__":
+    main()

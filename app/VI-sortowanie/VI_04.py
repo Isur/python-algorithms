@@ -36,3 +36,7 @@ def main():
     sort = Heap_sort()
     sort.main()
     sort.print_results()
+
+
+if __name__ == "__main__":
+    main()

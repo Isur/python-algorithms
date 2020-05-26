@@ -24,3 +24,7 @@ def main():
     ins = Insert_Sort()
     ins.main(2)
     ins.print_results()
+
+
+if __name__ == "__main__":
+    main()

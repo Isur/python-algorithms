@@ -80,7 +80,7 @@ class FirAlg(object):
         for i in range(self.vars):
             m1 = beta*math.exp(-gamma*(dist**2))
             m2 = ffj.position[i] - ffi.position[i]
-            some_math = ffi.position[i] + m1 * m2 + alpha*scale*uniform(-1,1)
+            some_math = ffi.position[i] + m1 * m2 + alpha*scale*uniform(-1, 1)
             new_pos.append(min(max(some_math, self.bounds[0]), self.bounds[1]))
         return new_pos
 

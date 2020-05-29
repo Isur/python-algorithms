@@ -1,8 +1,8 @@
-from VI_01 import Insert_Sort
-from VI_02 import Bubble_sort
-from VI_03 import Quick_sort
-from VI_04 import Heap_sort
-from VI_05 import Merge_sort
+from insert_sort import Insert_Sort
+from bubble_sort import Bubble_sort
+from quick_sort import Quick_sort
+from heap_sort import Heap_sort
+from merge_sort import Merge_sort
 from tester import Setting
 
 

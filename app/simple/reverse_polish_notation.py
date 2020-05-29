@@ -1,4 +1,5 @@
 """
+    Reverse Polish Notation
     Konwersja odwrotnej notacji polskiej (w obie strony)
 """
 

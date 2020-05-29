@@ -25,7 +25,7 @@ def findMax(data):
     return maxVal
 
 
-fileData = loadFromFile("./I_01.txt")
+fileData = loadFromFile("./file.txt")
 parsedData = parseData(fileData)
 maxValue = findMax(parsedData)
 print(maxValue)
